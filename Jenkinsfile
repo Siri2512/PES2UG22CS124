@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building C++ Project...'
-                    sh 'g++ -o PES2UG22CS061-1 main.cpp'  // Replace with your actual file
+                    sh 'g++ -o PES2UG22CS124-1 main.cpp'  // Replace with your actual file
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     echo 'Running Tests...'
-                    sh './PES2UG22CS061-1'  // Execute compiled file
+                    sh './PES2UG22CS124-1'  // Execute compiled file
                 }
             }
         }
